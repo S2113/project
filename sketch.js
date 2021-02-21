@@ -52,12 +52,14 @@ if(ball.y-p1.y<ball.height/2+p1.height/2)
 {
  ball.velocityY=ball.velocityY*(-1);
  ball.shapeColor=p1.shapeColor;
+ music.play();
 }
 
 if(p3.y-ball.y<ball.height/2+p3.height/2)
 {
 ball.velocityY=ball.velocityY*(-1);
 ball.shapeColor=p3.shapeColor;
+music.play();
 }
 if(ball.x-p4.x<ball.width/2+p4.width/2)
 {
